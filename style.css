@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-links p {
+    font-size: 24px;
+    color: white;
+}
+
+
+.section1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.section1 h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.section1 img {
+    width: 35%;
+}
+
+.section1 button {
+    background-color: goldenrod;
+    color: black;
+    padding: 10px 25px;
+    border: none;
+}
+
+
+.section2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 100px;
+
+}
+
+.section2-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.section2-content h1 {
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.section2-content p {
+    font-size: 24px;
+    color: white;
+}
+
+
+.section2-content button {
+    background-color: goldenrod;
+    color: black;
+    padding: 10px 25px;
+    border: none;
+}
+
+.section2-image {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-image img {
+    width: 60%;
+}
+
+.section3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 180px;
+    padding: 50px;
+}
+
+.section3-heading {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section3-heading h1 {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.card-1 {
+    width: 27%;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid orange;
+    padding: 30px;
+}
+
+.card-1 h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.card-1 button {
+    background-color: goldenrod;
+    color: black;
+    padding: 10px 25px;
+    border: none;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 45px;
+    gap: 20px;
+}
+
+.items p {
+    font-size: 14px;
+    color: white;
+}
+
+.section4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 100px;
+}
+
+.section4-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.section4-content h1 {
+    font-size: 35px;
+    color: white;
+}
+
+.section4-content span {
+    color: goldenrod;
+}
+
+.section4-content p {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 0;
+
+}
+
+.footer p {
+    font-size: 20px;
+    color: white;
+}
+
+.footer span {
+    color: goldenrod;
+}
+
+.line {
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.line hr {
+    border: 1px solid goldenrod;
+}
